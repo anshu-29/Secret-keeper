@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+<div class="bg-light p-5 rounded-lg m-3">
+  <h1 class="display-4">Secrets</h1>
+  <p class="lead">There might be some error. try again or contact the developer. </p>
+  <hr class="my-4">
+
+    <form action="/submit" method="POST">
+
+      <div class="form-group">
+        <input type="text" class="form-control text-center" name="secret" placeholder="What's your secret?">
+      </div>
+      <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+
+
+  </div>
+</div>
+<%- include('partials/footer') %>
